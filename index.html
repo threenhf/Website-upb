@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portal Mahasiswa UPB</title>
+        <link rel="stylesheet" href="styles.css">
+          <script type="module" src="script.js"></script>
+          </head>
+          <body>
+
+            <main class="container" id="loginPage">
+                <section class="login-card">
+
+                      <div class="logo">UPB</div>
+
+                            <h1>Portal Mahasiswa</h1>
+                                  <p>Universitas Pelita Bangsa</p>
+
+                                        <form id="loginForm">
+                                                <label for="nim">Nomor Induk Mahasiswa</label>
+                                                        <input
+                                                                  type="text"
+                                                                            id="nim"
+                                                                                      placeholder="Masukkan NIM"
+                                                                                                required
+                                                                                                        >
+
+                                                                                                                <label for="password">Password</label>
+                                                                                                                        <input
+                                                                                                                                  type="password"
+                                                                                                                                            id="password"
+                                                                                                                                                      placeholder="Masukkan password"
+                                                                                                                                                                required
+                                                                                                                                                                        >
+
+                                                                                                                                                                                <button type="submit" id="loginButton">
+                                                                                                                                                                                          Masuk
+                                                                                                                                                                                                  </button>
+
+                                                                                                                                                                                                          <p id="message"></p>
+                                                                                                                                                                                                                </form>
+
+                                                                                                                                                                                                                      <footer>
+                                                                                                                                                                                                                              © 2026 Universitas Pelita Bangsa
+                                                                                                                                                                                                                                    </footer>
+
+                                                                                                                                                                                                                                        </section>
+                                                                                                                                                                                                                                          </main>
+
+                                                                                                                                                                                                                                            <main class="container hidden" id="dashboardPage">
+                                                                                                                                                                                                                                                <section class="login-card dashboard">
+
+                                                                                                                                                                                                                                                      <div class="logo">UPB</div>
+
+                                                                                                                                                                                                                                                            <h1>Selamat Datang!</h1>
+                                                                                                                                                                                                                                                                  <p>Identitas Mahasiswa</p>
+
+                                                                                                                                                                                                                                                                        <div id="profileData"></div>
+
+                                                                                                                                                                                                                                                                              <button id="logoutButton">Keluar</button>
+
+                                                                                                                                                                                                                                                                                  </section>
+                                                                                                                                                                                                                                                                                    </main>
+
+                                                                                                                                                                                                                                                                                    </body>
+                                                                                                                                                                                                                                                                                    </html>
